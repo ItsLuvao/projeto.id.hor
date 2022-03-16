@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Identidade</title>
+    <link rel="stylesheet" href="estilo.css"
+</head>
+<body>
+    <header>
+    <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+    <p>Ano de Nascimento: <input type="number" name="txtidade" id="txtidade" min="0"><br></p>
+    <p>Sexo:
+        <input type="radio" name="redsex" id="masc">
+        <label for="masc">Masculino</label>
+        <input type="radio" name="redsex" id="fem">
+        <label for="masc">Feminino</label>
+    </p>
+    <input type="button" value="Verificar" onclick="detectar()">
+    <div id="res">
+        <p align="center">Preencha os dados acima para verificar sua idade</p>
+    </div>
+    <script src="script.js"></script>
+    </section>
+    <footer>
+        <p>&copy; lucasWeber</p>
+    </footer>
+</body>
+</html>
